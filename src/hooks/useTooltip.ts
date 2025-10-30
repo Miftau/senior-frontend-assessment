@@ -4,7 +4,7 @@ import Map from 'ol/Map';
 import Point from 'ol/geom/Point';
 
 export const useTooltip = (
-mapInstance: RefObject<Map | null>, tooltipOverlayRef: any,
+mapInstance: RefObject<Map | null>, _tooltipOverlayRef: any,
 ) => {
   useEffect(() => {
     if (!mapInstance.current) return;
